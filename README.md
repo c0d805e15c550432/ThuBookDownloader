@@ -5,17 +5,22 @@
 
 ## 安装与启动
 
-需要 Python 3.10 或以上版本。优先使用已安装的 Microsoft Edge；没有 Edge 时安装 Playwright Chromium。PowerShell 示例：
+需要 Python 3.10 或以上版本。优先使用已安装的 Microsoft Edge；没有 Edge 时安装 Playwright Chromium。
 
+### 安装依赖
 ```powershell
-Set-Location S:\Projects\get_book
-python -m venv S:\Projects\get_book\.venv
-S:\Projects\get_book\.venv\Scripts\python.exe -m pip install -r S:\Projects\get_book\requirements.txt
-# 仅未安装 Microsoft Edge 时需要：
-S:\Projects\get_book\.venv\Scripts\python.exe -m playwright install chromium
-S:\Projects\get_book\.venv\Scripts\python.exe S:\Projects\get_book\main.py
+pip install -r S:\Projects\get_book\requirements.txt
 ```
 
+### 仅未安装 Microsoft Edge 时需要：
+```powershell
+playwright install chromium
+```
+### 启动
+```powershell
+S:\Projects\get_book\.venv\Scripts\python.exe S:\Projects\get_book\main.py
+```
+或双击start.bat（仅Windows）
 
 
 ## 使用方法
