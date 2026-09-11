@@ -1,0 +1,39 @@
+# Python environments, bytecode, and test/tool caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Downloaded books and intermediate output
+/outputs/
+/screenshots/
+*.pdf
+*.part
+*.log
+
+# Browser profiles and private network/session captures
+[Uu]ser[Dd]ata/
+*.har
+*storage_state*.json
+cookies*.json
+.env
+.env.*
+!.env.example
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+tests/
