@@ -10,10 +10,7 @@
 ### 安装依赖
 ```powershell
 pip install -r S:\Projects\get_book\requirements.txt
-```
-
-### 仅未安装 Microsoft Edge 时需要：
-```powershell
+# 仅未安装 Microsoft Edge 时需要：
 playwright install chromium
 ```
 ### 启动
